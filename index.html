@@ -4,32 +4,40 @@
 	
 	<title>Cozy Corner</title>
 	
-<!-----------------GOOGLE FONTS----------------------->
+<!-- ---------------GOOGLE FONTS ----- -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rajdhani:400,600" rel="stylesheet">
-	
-	<link href="img/favicon.png" type="img/png" rel="icon">
-	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="css/main.css" type="text/css" rel="stylesheet">
+	
+
+
 	
 	
 </head>
 <body>
 
-	<div id="header">
 		
+	<div id="header">
 	
-		<h1>Cozy Corner</h1>
+		<h1 id="cozy">Cozy Corner</h1>
 
 		<nav>
-			<li class="active"><a href="index.html">home</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">contact</a></li>
-			<li><a href="#">social</a></li>
+			
+			<li id="hover" class="active"><a class="btn" href="index.html">home</a></li>
+			<li><a class="btn" href="#">about</a></li>
+			<li><a class="btn" href="#">contact</a></li>
+			<li><a class="btn" href="#">social</a></li>
 		</nav>
 
 	</div><!--------END HEADER---------------------->
 
 	<div id="home-page">
+		
+		
+		
+	
+	
+
+		
 		
 		<figure>
 		<img src="img/book_banner.jpg" alt="banner">
@@ -43,7 +51,12 @@
 		
 		
 		<h3>Our Best Sellers</h3>
-		
+<!-- ---------------------------------------------gsap -->
+		<div id="wrapper">
+
+
+		</div>
+		<!-- --------------------------------------------- -->
 		<div class="bestSell">
 			
 			<figure>
@@ -87,7 +100,7 @@
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.
 		</p>
-		</div><!----END READINGDAY----------->
+		</div><!----END READINGDAY--------- -->
 		
 		<div class="amazStaff">
 		
@@ -99,7 +112,14 @@
 		</div><!------------END AMAZING STAFF----------->
 
 	</div><!-------END OF MYCONTENT------------->
-	
+	<!-- MY JAVASCRIPT HERE -->
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<button onclick="createText()">MyButton</button>
 	
 	
 	
@@ -122,7 +142,9 @@
 			<li>contract</li>
 			<li>social</li>
 		</nav>
-	</div><!-------------END FOOTER------------------->
-	
+	</div><!-------------END FOOTER----------------- -->
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/TweenMax.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
