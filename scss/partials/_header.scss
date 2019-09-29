@@ -1,0 +1,92 @@
+// Header SCSS
+
+#header {
+	margin: auto;
+	max-width: 940px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	
+	/*---MOBILE---*/
+	@media only screen and (max-width: 35em) {
+		flex-direction: column;
+		
+	}
+
+	h1{
+		color: $primaryColor;
+		font-family: $titleFont;
+		font-size: $headText;
+		margin: 1em 0;
+		
+		/*---MOBILE---*/
+		@media only screen and (max-width: 35em) {
+		margin: 1em auto;
+		
+	}
+	}
+	
+    nav {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: row;
+		/*---MOBILE---*/
+		@media only screen and (max-width: 35em) {
+		flex-direction: column;
+		
+		}
+	
+    	li {
+			margin: 1em 1em;
+			list-style-type: none;
+		}
+		li a{
+			color: #BA1B1A;
+			font-size: 1em;
+			font-weight: $boldWeight;
+			font-family: $titleFont;
+			text-decoration: none;
+		}
+		li.active{
+			border-bottom: solid 2px $accent;
+		}
+		li.active a{
+			padding: 0 1em;
+			
+		
+		}
+		
+		
+		/*---MOBILE---*/
+		@media only screen and (max-width: 35em) {
+			margin: 1em auto;
+		
+		}
+		
+		}/*end nav*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}// #header

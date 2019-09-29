@@ -1,0 +1,47 @@
+// Header SCSS
+
+#footer {
+	margin: 2em auto;
+	max-width: 940px;
+	
+    nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+    	li {
+			margin: 1em 1em;
+			color: #BA1B1A;
+			font-size: 1em;
+			font-weight: $boldWeight;
+			font-family: $titleFont;
+			list-style-type: none;
+			text-decoration: none;
+			
+    	}	
+		}/*end nav*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}//--------------end#footer------------------

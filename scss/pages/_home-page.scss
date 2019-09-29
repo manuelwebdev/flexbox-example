@@ -1,0 +1,128 @@
+// Home Page SCSS
+
+@mixin myButton($width, $height){
+	background-color: $accent;
+				color: $secondaryColor;
+				width: $width;
+				height: $height;
+				margin: 1em auto;
+				border: none;
+				border-radius: 5px;
+				font-size: 24px;
+}
+
+#home-page{
+	background-color: $secondaryColor;
+	margin: auto;
+	max-width: 940px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	
+	
+	h2{
+		color: #BA1B1A;
+		font-size: 24px;
+		font-weight: $boldWeight;
+		font-family: $titleFont;
+		margin: 1em 0 .5em 0;
+		
+	}
+	h3{
+		color: #BA1B1A;
+		font-size: 18px;
+		font-weight: $boldWeight;
+		font-family: $titleFont;
+		margin: 1em 0 .5em 0;
+	}
+	p{
+		font-size: $mainText;
+		font-family: $defaultFont;
+	}
+	figure img{
+		width: 100%;
+	}
+	.bestSell{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.bestSell figure{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: $primaryColor;
+		margin: 0 2%;
+		box-shadow: 5px 10px 40px; 
+	}
+	
+	.bestSell figure img{
+		width: 75%;
+		height: 100%;
+	}
+	
+	.bestSell figure figcaption{
+		color: #ffffff;
+		font-family: $defaultFont;
+		text-align: center;
+	}
+	
+	.promo{
+		display: flex;
+		justify-content: space-around;
+		background-color: $primaryColor;
+		margin: 1em 0;
+		height: 200px;
+		width: 100%;
+		padding: 1em;
+		
+		figure img{
+			height: 100%;
+			width: auto;
+		}
+		.learn{
+			width: 70%;
+			p{
+				color: $secondaryColor;
+			}
+			button{
+				@include myButton(50%, 50px);
+			
+			}
+		
+		
+		
+		}
+		
+	}
+	
+	
+	.myContent{
+		margin: 1em 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+		.readDay{
+			margin: 0 .5em 0 0;
+		}
+		.amazStaff{
+			margin: 0 0 0 .5em;
+		}
+		
+		
+	
+	
+	
+	
+	
+	
+	}/*-------END OF MYCONTENT------------*/
+
+
+
+
+
+		
+	}
